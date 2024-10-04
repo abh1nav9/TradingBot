@@ -39,7 +39,7 @@ The application makes use of the following endpoint from the Alpaca API:
 
 Get Latest Quote:
 
-**Endpoint**: `GET /v2/stocks/{symbol}/quotes/latest`
+**Endpoint**: `GET https://data.alpaca.markets/v2/stocks/{symbol}/quotes/latest`
 
 **Headers:**
 
