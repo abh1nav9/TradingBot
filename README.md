@@ -49,7 +49,7 @@ Get Latest Quote:
 
 ## Example Request
   ```bash
- const response = await axios.get(`${ALPACA_API_URL}/v2/stocks/  AAPL/quotes/latest`, {
+ const response = await axios.get(`${ALPACA_API_URL}/v2/stocks/AAPL/quotes/latest`, {
     headers: {
         'APCA_API_KEY_ID': API_KEY,
         'APCA_API_SECRET_KEY': API_SECRET,
